@@ -1,11 +1,11 @@
 let vehicles = null;
 
-fetch("vehicleDetails.json")
-  .then((response) => response.json())
-  .then((data) => {
-    vehicles = data;
-    showDetails()
-  });
+// fetch("vehicleDetails.json")
+//   .then((response) => response.json())
+//   .then((data) => {
+//     vehicles = data;
+//     showDetails()
+//   });
 
 function showDetails() {
   let details = document.querySelector(".details");
