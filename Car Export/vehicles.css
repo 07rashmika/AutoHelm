@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vehicle-container{
+    display: grid;
+    place-content: center;
+}
+
+.head-veh h1{
+    font-size: 2.2rem;
+    border-bottom: 4px solid #28ABE3;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.vehicles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1120px;
+
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 0 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.vehicle a:hover{
+    color: hsl(198, 77%, 52%);
+    transition: all .4s ease;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.auction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    height: auto;
+}
+
+.auction-head{
+    margin-bottom: 2rem;
+}
+
+/* sliding css */
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .box-c{
+    width: 100%;
+    display: none;
+}
+
+.box-c.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider .btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.prev{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+@keyframes fade{
+    from {opacity: .5;}
+    to {opacity: 1}
+}
+
+footer{
+    width: 100%;
+}
+
+@media (max-width: 780px){
+    .search-bar {
+        position: relative !important;
+      }
+}
+
+@media (max-width: 1150px){
+    .collection{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 50px;
+    }
+} 
+
+@media (max-width: 940px){
+    .collection{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-top: 50px;
+    }
+} 
+
+@media (max-width: 560px){
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 50px;
+    }
+} 

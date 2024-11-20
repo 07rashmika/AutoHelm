@@ -1,0 +1,198 @@
+#login-modal{
+    position: fixed;
+    opacity: 0;
+    inset: 0 0 0 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    z-index: 10;
+}
+
+#login-modal.render{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.login-card-content{
+    display: grid;
+    place-content: center;
+}
+
+.login-card{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    height: 35rem;
+    width: 25rem;
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: auto;
+    z-index: 12;
+    overflow: hidden;
+    display: none;
+}
+
+.login-card a{
+    color: #28ABE3;
+    text-decoration: underline;
+}
+
+.login-card.pop-up{
+    display: block;
+}
+
+.login-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.8rem;
+}
+
+.login-header h1{
+    font-size: 1.4rem;
+}
+
+.login-header button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.login-header button:hover{
+    color: #28ABE3;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form label{
+    font-size:.85rem;
+    font-weight: 600;
+    margin-bottom:.5rem;
+}
+
+#login-form input{
+    background-color: hsl(0, 25%, 99%);
+    border: 2px solid #28ABE3;
+    border-radius: 5px;
+    width: 16rem;
+}
+
+.password{
+    text-decoration: none;
+    color: #28ABE3;
+    margin-bottom: .4rem;
+    margin-top: 1.5rem;
+}
+
+.sign-other{
+    text-decoration: none;
+    text-align: center;
+}
+
+.sign-other{
+    width: 100%;
+    margin-top: 1rem;
+    padding: .5rem .7rem;
+    background-color: white;
+    color: #28ABE3;
+    border: 2px solid #28ABE3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 500;
+    font-weight: 700;
+    margin: .5rem auto;
+}
+
+.sign-other:hover{
+    background-color: #28ABE3;
+    border: 2px solid #28ABE3;
+    color: white;
+    transition: all.4s ease;
+}
+
+#login-form button{
+    width: 100%;
+    margin-top: 1rem;
+    padding: .5rem .7rem;
+    background-color: #28ABE3;
+    color: azure;
+    border: 2px solid #28ABE3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 500;
+    font-weight: 700;
+    margin: .5rem auto;
+}
+
+.sign-other i{
+    margin-right: 4px;
+}
+
+#login-form button:hover{
+    background-color: transparent;
+    border: 2px solid #28ABE3;
+    color: #28ABE3;
+    transition: all.4s ease;
+}
+
+.new-registration{
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.labelPW{
+    margin-top: .5rem;
+}
+
+.invalid-mail{
+    color: red;
+    font-size: .7rem;
+    
+}
+
+@media (max-width: 576px){
+    .login-card{
+        padding: auto;
+    }
+}
+
+/* registration css */
+.register-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.register{
+    margin-top: 2rem;
+}
+input{
+    width: 18rem;
+    height: 2rem;
+    border: 1px solid black;
+}
+form label{
+    margin-bottom: 5px;
+    font-size: .9rem;
+    margin-right: 1rem;
+}
+form select{
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+}
+#country{
+    width: 8rem;
+}

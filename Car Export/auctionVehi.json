@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "brand":"Suzuki",
+        "model": "Stingray",
+        "year": 2017,
+        "price": 429000,
+        "image": "./assets/Logo.png",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+    },
+    {
+        "id": 2,
+        "brand":"Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": 549000,
+        "image": "./assets/Logo.png",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+    },
+    {
+        "id": 3,
+        "brand":"Honda",
+        "model": "Civic",
+        "year": 2018,
+        "price": 409000,
+        "image": "./assets/Logo.png",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+    },
+    {
+        "id": 4,
+        "brand":"BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "price": 529000,
+        "image": "./assets/Logo.png",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+    },
+    {
+        "id": 5,
+        "brand":"Mercedes-Benz",
+        "model": "E-Class",
+        "year": 2018,
+        "price": 549000,
+        "image": "./assets/Logo.png",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+    },
+    {
+        "id": 6,
+        "brand":"Audi",
+        "model": "A6",
+        "year": 2019,
+        "price": 489000,
+        "image": "./assets/Logo.png",
+        "description": "Expertly rendered by Carl Hansen & Søn, the lounge chair—first introduced in 1951 and enduring ever since—is available in oak or as a combination of oak and walnut, sourced from sustainable forestry. Choose from seat and back upholstery in a selection of leather options or in a custom fabric."
+    }
+]

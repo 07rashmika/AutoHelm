@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service-header{
+    background-image: url(assets/car\ sale.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: "Roboto", serif;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 2.4rem;
+}
+
+.service-header p{
+    width: 850px;
+    font-size: 1.125rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: rgba(0, 0, 0, 0.30);
+    color: white;
+    border-radius: 8px;
+}
+
+.service-item{
+    background: hsl(0, 0%, 92%);
+    padding: 20px 40px;
+
+    margin-bottom: 2rem;
+}
+.services-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.serv-item-left-grid{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.service-close{
+    font-size: 3rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 5px;
+    width: 50px;
+    transition: .4s ease-in-out;
+}
+
+.services-bottom p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 25px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}

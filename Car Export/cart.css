@@ -1,0 +1,91 @@
+.cart-container{
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.cart{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 500px;
+    background-color: hsl(0, 0%, 85%);
+    border-left: 1px solid hsl(268, 88%, 36%);
+    height: 85vh;
+    transition: 0.5s;
+}
+
+.activated .cart{
+    left: calc(100% - 32px);
+    overflow: hidden;
+}
+
+.activated .cart-container{
+    transform: translateX(-200px);
+}
+.cart h1{
+    color: black;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.cart .checkout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cart .checkout div{
+    background-color: hsl(268, 88%, 36%);
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cart .checkout div:nth-child(2){
+    background-color: black;
+    color: white;
+}
+
+.carCard li{
+    display: grid;
+    grid-template-columns: 100px repeat((1, fr));
+    color: white;
+    row-gap: 10px;
+}
+.carCard li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carCard li img{
+    width: 90%;
+}
+.carCard .count{
+    margin: 0 10px;
+    color: hsl(0, 0%, 10%);
+}
+.cardTitle,
+.cardPrice{
+    color: hsl(220, 14%, 13%);
+}
+.cardButton{
+    width: 28px;
+    height: 28px;
+    color: hsl(0, 0%, 94%);
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

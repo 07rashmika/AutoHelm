@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-headers{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+.about-headers::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(to right, #28ABE3, hsl(234, 74%, 21%));
+}
+
+.overview, .why, .contact{
+    padding-top: 2rem;
+}
+
+.about-container p{
+    text-align: left;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact{
+    padding: 5rem 0;
+}
+
+.contact-form{
+    width: 540px;
+}
+
+.contact-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    margin-top: 2.5rem;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -2rem;
+}
+
+.contact-form form label{
+    margin-bottom: 5px;
+    font-size: .9rem;
+}
+
+.contact-form form select{
+    width: 8rem;
+    height: 35px;
+}
+
+.contact-form form input{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 18rem;
+    height: 2rem;
+}
+
+.contact-form form textarea{
+    width: 20rem;
+    height: 13rem;
+}
+
+.contact-form form button{
+    padding: 8px 15px;
+    font-size: .8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: hsl(198, 77%, 52%);
+    color: white;
+}
+
+.contact-form form button:hover{
+    background-color: hsl(198, 77%, 42%);
+    color: white;
+    transition: .4s all ease;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+.contact-details .contact-details-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-details-list h5{
+    font-size: 1.1rem;
+}
+
+.contact-details-list p{
+    text-align: start;
+}
